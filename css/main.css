@@ -502,13 +502,13 @@ section {
 }
 
 /*************************
-*********Team CSS*********
+*********people CSS*********
 **************************/
-#team {
+#people {
   padding-top: 0;
 }
 
-.team-members {
+.people-members {
   margin-bottom: 25px;
 }
 
@@ -550,29 +550,29 @@ section {
   transform: scale(1.2);
 }
 
-.team-member {
+.people-member {
   text-align: center;
   color: #333;
   font-size: 14px;
 }
 
-.team-member:hover .social-icons ul li a.facebook {
+.people-member:hover .social-icons ul li a.facebook {
   background-color: #3b5999;
 }
-.team-member:hover .social-icons ul li a.twitter {
+.people-member:hover .social-icons ul li a.twitter {
   background-color: #2ac6f7;
 }
-.team-member:hover .social-icons ul li a.dribbble {
+.people-member:hover .social-icons ul li a.dribbble {
   background-color: #ff5b92;
 }
-.team-member:hover .social-icons ul li a.linkedin {
+.people-member:hover .social-icons ul li a.linkedin {
   background-color: #036dc0;
 }
-.team-member:hover .social-icons ul li a.rss {
+.people-member:hover .social-icons ul li a.rss {
   background-color: #ff6b00;
 }
 
-#team .img-responsive {
+#people .img-responsive {
   width: 100%;
 }
 
@@ -586,82 +586,6 @@ section {
   color: #999;
 }
 
-
-/*************************
-*******Features CSS*******
-**************************/
-#features {
-  text-align: center;
-  background-image: url(../images/features-bg.jpg);
-}
-
-#features i {
-  font-size: 48px;
-}
-
-#features h3 {
-  margin-top: 15px;
-  font-size: 30px;
-  margin-bottom: 7px;
-  color: #fff;
-}
-
-#features .slider-overlay {
-  opacity: 0.8;
-}
-
-
-/*************************
-*****Pricing Table CSS****
-**************************/
-.pricing-table {
-  text-align: center;
-}
-
-.single-table {
-  padding: 30px 20px 20px;
-  border:1px solid #f2f2f2;
-}
-
-.single-table h3 {
-  margin-top: 0;
-  padding: 0;
-  font-size: 18px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
-
-.price {
-  font-size: 36px;
-  line-height: 36px;
-}
-
-.price span {
-  font-size: 14px;
-  line-height: 14px;
-}
-
-.single-table ul {
-  list-style: none;
-  padding: 0;
-  margin: 30px 0;
-}
-
-.single-table ul li {
-  line-height: 30px;
-}
-
-.single-table.featured {  
-  color: #fff;
-}
-
-.single-table.featured h3 { 
-  color: #fff;
-}
-
-.single-table.featured .btn.btn-primary {
-  background-color: #fff;
-}
 
 /*************************
 ********Twitter CSS*******
@@ -748,46 +672,10 @@ section {
 
 
 /*************************
-**********Blog CSS********
+**********Weather CSS********
 **************************/
 
-.post-thumb {
-  position: relative;
-}
-
-.post-icon {
-  position: absolute;
-  top:10px;
-  right:10px;
-  height: 30px;
-  width: 30px;
-  line-height: 30px;
-  border-radius:4px;
-  text-align: center;
-  color: #fff;
-  font-size: 12px;
-}
-
-.post-meta {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: #fff;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.post-meta span {
-  margin-right: 16px;
-}
-
-#post-carousel .carousel-indicators {
-  bottom: 3px;
-  left: 90%;
-}
-
-.blog-left-control, .blog-right-control {
+.weather-left-control, .weather-right-control {
   position: absolute;
   top: 45%;
   width: 30px;
@@ -796,15 +684,15 @@ section {
   font-size: 36px;
 }
 
-.blog-left-control {
+.weather-left-control {
   left: 0;
 }
 
-.blog-right-control {
+.weather-right-control {
   right: 0;
 }
 
-.blog-left-control:hover, .blog-right-control:hover {
+.weather-left-control:hover, .weather-right-control:hover {
   color: #fff;  
 }
 
@@ -812,47 +700,15 @@ section {
   line-height: 30px;
 }
 
-.entry-header .date, 
-.entry-header .cetagory {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  position: relative;
+
+.weather-span {
+    display: block !important; 
+    width: 180px; 
+    text-align: center; 
+    font-family: sans-serif; 
+    font-size: 12px;
 }
 
-.entry-header .date:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom:-22px;
-  width: 20px;
-  height: 3px;
-}
-
-.entry-content {
-  font-size: 14px;
-}
-
-.load-more {
-  display:block;
-  text-align: center;
-  margin-top: 70px;
-}
-
-.btn-loadmore {
-  border: 1px solid #f2f2f2;
-  color: #666666;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 15px 125px;
-  text-transform: uppercase;
-}
-
-.btn-loadmore:hover {
-  color:#fff;
-}
 
 /*************************
 **********Contact CSS*****
