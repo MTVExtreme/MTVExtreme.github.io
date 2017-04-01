@@ -168,6 +168,7 @@ section {
 .caption .btn-start:hover {
   color: #fff
 }
+
 .header-picture {
     position: relative;
     margin: 0 auto;
@@ -588,101 +589,24 @@ section {
 
 
 /*************************
-********Twitter CSS*******
-**************************/
-#twitter {
-  background-image: url(../images/twitter-bg.jpg);
-}
-
-#twitter > div {
-  text-align: center;
-  position: relative;
-}
-
-#twitter-carousel {
-  position: relative;
-  z-index: 15
-}
-
-.twitter-icon {
-  position: relative;
-  z-index: 15;
-  color: #fff;
-}
-
-.twitter-icon .fa-twitter {
-  font-size: 24px;
-  height: 64px;
-  width: 64px;
-  line-height: 65px;
-  border-radius: 50%; 
-  position: relative;
-}
-
-.twitter-icon .fa-twitter:after {
-  position: absolute;
-  content: "";
-  border-width: 8px;
-  border-style: solid;
-  left: 24px;
-  bottom: -14px;
-}
-
-#twitter-carousel .item {
-  padding: 0 55px;
-}
-
-#twitter-carousel .item a {
-  color: #fff;
-}
-
-.twitter-icon h4 {
-  text-transform: uppercase;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  color: #fff;
-}
-
-.twitter-left-control, 
-.twitter-right-control {
-  position: absolute;
-  top: 50%;
-  color: #fff;
-  border: 1px solid #fafafa;
-  height:34px;
-  width: 34px;
-  line-height: 31px;
-  margin-top: -17px;
-  font-size: 18px;
-  border-radius: 50%;
-  z-index: 15
-}
-
-.twitter-left-control {
-  left: 80px;
-} 
-
-.twitter-right-control {
-  right: 80px
-}
-
-.twitter-left-control:hover, .twitter-right-control:hover {
-  color: #fff;
-}
-
-
-/*************************
 **********Weather CSS********
 **************************/
 
-.weather-left-control, .weather-right-control {
-  position: absolute;
-  top: 45%;
-  width: 30px;
-  text-align: center;
-  color: rgba(255,255,255,.7);
-  font-size: 36px;
+#weather {
+    height: 475px;
+    color: aliceblue;
+    background-image: url(../images/twitter-bg.jpg);
 }
+
+.weather-left-control, .weather-right-control {
+    position: absolute;
+    top: 45%;
+    width: 30px;
+    text-align: center;
+    color: rgba(255,255,255,.7);
+    font-size: 36px;
+}
+
 
 .weather-left-control {
   left: 0;
@@ -702,10 +626,11 @@ section {
 
 
 .weather-span {
-    display: block !important; 
-    width: 180px; 
-    text-align: center; 
-    font-family: sans-serif; 
+    display: block !important;
+    margin: 0 auto;
+    width: 180px;
+    text-align: center;
+    font-family: sans-serif;
     font-size: 12px;
 }
 
