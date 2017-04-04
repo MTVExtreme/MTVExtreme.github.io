@@ -176,6 +176,7 @@ section {
     background-size: cover;
     width: 200px;
     height: 200px;
+    border-radius: 60px;
     
 }
 .carousel-fade .carousel-inner .item {
@@ -286,8 +287,14 @@ section {
   margin-top: 5px;
 }
 
+.navbar-right > .img-responsive {
+    height: 64px;
+    position: relative;
+    margin: 0 auto;
+}
+
 /*************************
-********Service CSS*******
+********Skills CSS*******
 **************************/
 
 .service-icon {
@@ -302,25 +309,25 @@ section {
   transition: background-color 0.2s ease;
 }
 
-.our-services .col-sm-4:hover .service-icon {
+.our-skills .col-sm-4:hover .service-icon {
   background-color: #333;
 }
 
-.our-services .col-sm-4 {
+.our-skills .col-sm-4 {
   border-right:1px solid #f2f2f2;
   border-bottom:1px solid #f2f2f2;
   padding-bottom: 50px;
 }
 
-.our-services .col-sm-4:nth-child(4), 
-.our-services .col-sm-4:nth-child(5), 
-.our-services .col-sm-4:nth-child(6) {
+.our-skills .col-sm-4:nth-child(4), 
+.our-skills .col-sm-4:nth-child(5), 
+.our-skills .col-sm-4:nth-child(6) {
   border-bottom:0;
   padding-top: 60px;
 }
 
-.our-services .col-sm-4:nth-child(3), 
-.our-services .col-sm-4:nth-child(6) {
+.our-skills .col-sm-4:nth-child(3), 
+.our-skills .col-sm-4:nth-child(6) {
   border-right:0;
 }
 
