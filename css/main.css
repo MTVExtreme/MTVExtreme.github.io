@@ -287,26 +287,25 @@ section {
   margin-top: 5px;
 }
 
-.navbar-right > .img-responsive {
-    height: 64px;
+#logo-image {
+    height: 81px;
     position: relative;
     margin: 0 auto;
+    display: inline-block;
 }
-
 /*************************
 ********Skills CSS*******
 **************************/
-
 .service-icon {
-  border-radius: 4px;
-  color: #fff;
-  display: inline-block;
-  font-size: 36px;
-  height: 90px;
-  line-height: 90px;
-  width: 90px;  
-  -webkit-transition: background-color 0.2s ease;
-  transition: background-color 0.2s ease;
+    border-radius: 4px;
+    color: #fff;
+    display: inline-block;
+    font-size: 36px;
+    height: 90px;
+    line-height: 90px;
+    width: 90px;
+    -webkit-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
 }
 
 .our-skills .col-sm-4:hover .service-icon {
