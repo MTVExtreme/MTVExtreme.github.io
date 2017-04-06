@@ -359,9 +359,11 @@ section {
   margin-bottom: 10px;
 }
 
-#about-us h1 {
-  margin-bottom: 30px;
-}
+    #about-us h1 {
+        margin-bottom: 30px;
+        background-color: black;
+    }
+
 
 .progress{
   height: 20px;
@@ -576,7 +578,7 @@ section {
 .people-member:hover .social-icons ul li a.twitter {
   background-color: #2ac6f7;
 }
-.people-member:hover .social-icons ul li a.dribbble {
+.people-member:hover .social-icons ul li a.github {
   background-color: #ff5b92;
 }
 .people-member:hover .social-icons ul li a.linkedin {
@@ -655,10 +657,6 @@ section {
 #contact {
   padding-top: 45px;
   padding-bottom: 0;
-}
-
-#google-map {
-  height: 350px;
 }
 
 #contact-us {
