@@ -367,6 +367,7 @@ section {
 .About-Me-Text 
 {
     background-color: rgba(51, 51, 51, 0.75);
+    padding: 10px 10px 10px 10px;
     border-radius: 25px;
 }
 
@@ -399,7 +400,7 @@ section {
 **************************/
 
 #portfolio .container-fluid, 
-#portfolio .col-sm-3  {
+#portfolio .col-sm-4  {
   overflow: hidden;
   padding: 0;
 }
